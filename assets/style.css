@@ -20,6 +20,89 @@ body{
 
 /*NavBar Element*/
 
+.nav {
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: slategrey;
+    position: relative;
+}
+
+.nav .nav-header {
+    display: inline;}
+
+
+ .nav > .header > .nav-title {
+    display: inline-block;
+     font-size: 22px;
+     color: #fff;
+     padding: 10px 10px 10px 10px; 
+    }
+
+.nav > .nav-btn {
+    display: none;
+}
+
+.nav > .nav-links {
+    display: inline;float: right; font-size: 16px;
+
+}
+
+.nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: orange;
+}
+
+.nav > #nav-check {
+display: none;
+}
+
+@media (max-width:600px) {
+    .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .nav > .nav-btn > label:hover, .nav #nav-checked:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn >label >span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #266872;
+        height: 0px;
+        transition: 0.4 ease-in;
+        overflow: hidden;
+        top: 50px;
+        left: 0px;
+    }
+}
+
+
+
+
+
 
 
 
