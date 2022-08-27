@@ -22,14 +22,25 @@ body{
 
 .nav {
     height: 50px;
-    width: 100%;
+    width: 95%;
     padding: 0 20px;
-    background-color: slategrey;
     position: relative;
 }
 
-.nav .nav-header {
-    display: inline;}
+
+.nav  .nav-header {
+    display: inline;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+    list-style: none;
+}
+
+.nav  .nav-header:hover {
+    color:rgb(200, 9, 9);
+    transition: 0.4;
+}
 
 
  .nav > .header > .nav-title {
@@ -56,7 +67,7 @@ body{
 }
 
 .nav > .nav-links > a:hover {
-    background-color: orange;
+    color:rgb(200, 9, 9);
 }
 
 .nav > #nav-check {
@@ -97,25 +108,34 @@ display: none;
         top: 50px;
         left: 0px;
     }
+    .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh -50vh);
+        overflow-y: auto;
+    }
+
 }
-
-
-
-
-
-
 
 
 /*Hero Section*/
 .hero-image {
-background-image: url("/assets/images/joypad.jpg");
+background: transparent;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
 height: 50%;
 opacity: 0.9;
-margin-top: 20%;
+margin-top: 0%;
 
 }
 
@@ -134,15 +154,23 @@ margin-top: 20%;
 .main-button{
     text-decoration: none;
     border-bottom: none;
-    font-size: 18px;
+    list-style-type: none;
+    font-size: 17px;
     border-radius: 12px;
-    color: white;
-    background-color: slategray;
+    color: black;
+    background-color: white;
     transition-duration: 0.3s;
 }
 
 .main-button:hover{
-    background-color: orange;
-    color: #fff;
+    background-color:rgb(200, 9, 9);
+    color: black;
+}
+
+.main-button-link {
+    text-decoration: none;
+    border-bottom: none;
+    list-style-type: none;
+    color: inherit;
 }
 
