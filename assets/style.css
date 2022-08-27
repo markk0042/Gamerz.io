@@ -40,15 +40,17 @@ margin-top: 20%;
 }
 
 
-
-
-.main-heading {
-    color: #fff;
-    font-size: 30px;
-    display: inline-block;
-    top: 50%;
-    left: 50%;
-    
+.main-button{
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 20px;
+    border-radius: 12px;
+    color: white;
+    background-color: slategray;
+    transition-duration: 0.3s;
 }
 
-
+.main-button:hover{
+    background-color: orange;
+    color: #fff;
+}
