@@ -2,6 +2,31 @@
 
 Welcome Mark Kelly,
 
+
+assistance links used (https://m-softtech.in/index.php/2022/02/21/make-responsive-navar/)
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/howto/howto_css_cards.asp
+https://www.w3schools.com/howto/howto_css_image_effects.asp
+https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag
+https://blog.hubspot.com/marketing/hero-image
+https://www.w3schools.com/cssref/pr_background-image.asp
+
+
+
+images:
+
+https://unsplash.com/photos/TPH3q6202qA
+
+
+
+
+
+
+
+
+
+
+
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
