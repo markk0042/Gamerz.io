@@ -5,3 +5,8 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+.main-heading {
+    color: #fff;
+    font-size: 30px;
+}
